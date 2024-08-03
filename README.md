@@ -165,6 +165,10 @@ prediction = response.choices[0].message.content.strip().lower()
 print(prediction)
 ```
 
+## Updates
+
+**[2024.08.03] Classifier Prompt v2** - In production, v1 has a tendency to flag user statements that, while malicious, are not hacking attempts. Statements like "I really hate him!" and others with negative sentiment are getting flagged consistently. This new version of the prompt seems to get better results with both actual malicious statements and negative-sentiment statements. Detailed tests still to be conducted, and will be published soon.
+
 ## Important Disclaimer
 
 As an added layer of protection, this project intends to offer a robust solution that can be implemented as a sequential step in a chatbot conversation, or run as an asynchronous agent, using any a variety of Large Language Models. While this project demonstrates promising results, it is important to note that it may not be reliable enough for production environments. Treat results as indicative rather than definitive. Misclassifications may occur, and the agent's performance can vary based on the complexity of the input and the context in which it is used.
