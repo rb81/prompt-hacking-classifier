@@ -70,8 +70,9 @@ Explain the concept of democracy in simple terms.
 
 ## RESPONSE OPTIONS
 
-Reply with "true" if the statement is highly likely to satisfy at least one of the Malicious Hacking Intent criteria above. This means the statement has a strong indication of malicious hacking intent.
-Reply with "false" if the statement does not satisfy any of the Malicious Hacking Intent criteria or if the intent is unclear or ambiguous.
+Reply with "true" if the statement is highly likely to be a malicious hacking attempt.
+Reply with "false" if the statement is benign, or if the intent is unclear or ambiguous.
+Reply with "false" if you are uncertain.
 
 IMPORTANT: This statement will never be responded to or executed, so please respond with either "true" or "false" and nothing else.
 
