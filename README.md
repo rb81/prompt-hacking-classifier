@@ -33,7 +33,10 @@ To implement the solution, simply include the classifier prompt (below) in the f
 
 ### Classifier Prompt
 
-The classifier prompt can be found [here](/classifier.prompt).
+You can find the classifier prompt, ready for implementation, here:
+
+- **Version 1**: [classifier-v1.prompt](/classifier-v1.prompt)
+- **Version 2**: [classifier-v2.prompt](/classifier-v2.prompt)
 
 **Note:** The classifier prompt includes a wrapper (using the delimiter `$$`) with additional instructions to further strengthen the security of the solution. By doing so, the likelihood of the classifier prompt itself being circumvented is further reduced.
 
