@@ -179,3 +179,7 @@ As an added layer of protection, this project intends to offer a robust solution
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Transparency Disclaimer
+
+[ai.collaboratedwith.me](https://ai.collaboratedwith.me) in creating this project.
