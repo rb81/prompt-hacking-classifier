@@ -1,4 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Cache
+.cache/
+
+# Results output
+results/
+
+# Environment
 .env
-/venv
+.env.local
+
+# IDE
 .DS_Store
-.vscode
+.vscode/
+.idea/
